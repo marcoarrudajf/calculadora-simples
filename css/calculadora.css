@@ -1,9 +1,8 @@
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  padding: 0;
 }
 
 #corpo {
@@ -15,24 +14,26 @@ body {
   background-color: #a3aab1;
   border-radius: 5px;
 }
-#corpo legend{
-  font-size: .8rem;
+
+#corpo legend {
+  font-size: 0.8rem;
   text-align: right;
 }
-.tabela .btn-sup{
-  font-size: .8rem;
+
+.tabela .btn-sup {
+  font-size: 0.8rem;
   height: 20px;
   border-radius: 10px;
 }
-.tabela .btn-sup:focus{
+
+.tabela .btn-sup:focus {
   background-color: #16b130;
   border: none;
 }
 
-
 #visor {
   margin-bottom: 10px;
-  text-align:right;
+  text-align: right;
   border: 4px #ccc groove;
   border-radius: 5px;
 }
@@ -46,10 +47,12 @@ body {
   background-color: #fffc33;
   border: 1px solid #ccc;
 }
-.oper{
-  background-color:#bbb;
+
+.oper {
+  background-color: #bbb;
   transition: all 0.2s;
 }
-.oper:focus{
-  background-color:#665;
+
+.oper:focus {
+  background-color: #665;
 }
